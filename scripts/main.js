@@ -18,3 +18,4 @@
  var foxGif = document.querySelector('#foxlick');
 
  foxGif.onclick = sayMlem;
+
