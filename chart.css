@@ -1,0 +1,35 @@
+body {
+  font: 14px courier;
+}
+
+
+#quinoa-popularity {
+  font: 10px sans-serif;
+}
+
+#quinoa-popularity .axis path,
+#quinoa-popularity .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#quinoa-popularity .x.axis path {
+  display: none;
+}
+
+#quinoa-popularity .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#quinoa-popularity .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#quinoa-popularity .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
